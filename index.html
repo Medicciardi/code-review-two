@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Vacation roulette.</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -10,7 +11,7 @@
 
   <body>
     <div class="container">
-      <form id="vacation">
+      <form class="vacation">
         <div class="radio">
           <input type="radio" name="operator" value="kayak">
           <label for="kayak">I like to go kayaking.</label>
@@ -29,8 +30,41 @@
         </div>
         <button class="btn" type="submit">Go!</button>
       </form>
-      <div id="output">
-
-      </div>
     </div>
+
+    <div class="container">
+      <form class="vacation">
+        <div class="radio">
+          <input type="radio" name="operator" value="budget1">
+          <label for="kayak">I have $5000 to spend.</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="operator" value="budget2">
+          <label for="lounge">I have $2500 to spend</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="operator" value="ice">
+          <label for="ice">I have $7500 to spend.</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="operator" value="scuba">
+          <label for="scuba">I have $1000 to spend.</label>
+        </div>
+        <button class="btn" type="submit">Go!</button>
+      </form>
+    </div>
+
+        <div id="swiss">
+          <img src="img/swiss.jpeg" class="img-responsive img-circle">
+        </div>
+        <div id="patagonia">
+          <img src="img/patagonia.jpg" class="img-responsive img-circle">
+        </div>
+        <div id="hawaii">
+          <img src="img/hawaii.jpg" class="img-responsive img-circle">
+        </div>
+        <div id="fiji">
+          <img src="img/fiji.jpeg" class="img-responsive img-circle">
+        </div>
+
   </body>
