@@ -5,6 +5,7 @@ $().ready(function(){
     var choice = $("input:radio[name=operator]:checked").val();
     var choice2 = $("input:radio[name=operator2]:checked").val();
     if (choice === "ice" && choice2 === "budget1") {
+      $(".destination").children().hide();
       $("#swiss").show();
     } else if (choice === "kayak") {
       $(".destination").children().hide();
