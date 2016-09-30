@@ -11,7 +11,7 @@ _This is a webpage that I designed for my second code review at Epicodus. This p
 ## Setup/Installation Requirements
 
 * _Open web browser_
-* _Go to medicciardi.github.io/code-review-two_
+* _Go [medicciardi.github.io/code-review-two](here!)_
 * _Gaze in amazement_
 
 
