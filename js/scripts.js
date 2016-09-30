@@ -7,17 +7,12 @@ $().ready(function(){
       $("#swiss").show();
     } else if (choice === "kayak") {
       $("#patagonia").show();
-    } else if (choice === "scuba") {
-      $("#hawaii").show();
     } else if (choice === "lounge") {
       $("#fiji").show();
-    } else if (choice === "lounge" && "budget4") {
+    } else if (choice === "scuba") {
       $("#hawaii").show();
-    } else if (choice === "scuba" && "budget1") {
-      $("#fiji").show();
-    } else if (choice === "lounge" && "budget3") {
-      $("#swiss").show();
     }
+
 
   });
 });
